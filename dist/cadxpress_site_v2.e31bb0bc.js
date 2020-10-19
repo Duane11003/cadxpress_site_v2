@@ -34241,7 +34241,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n@media screen and (max-width: 470px) {\n    width: 470px !important;\n    a {\n        font-size: 12px;\n    }\n}\n"]);
+  var data = _taggedTemplateLiteral(["\ndisplay: flex;\nbackground: url(\"https://imagesforportfolio.s3.amazonaws.com/cadxpress_black.svg\") no-repeat cover;\nwidth: 200px;\nmax-height: 200px !important;\nimg {\n    height: auto;\n    max-width: 200px;\n    margin-bottom: -83px;\n    margin-top: -20px;\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -34253,9 +34253,9 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var TopNav = function TopNav() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(StyledNav, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
-    to: "/"
-  }, "Logo goes here")));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(StyledNav, null, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://imagesforportfolio.s3.amazonaws.com/cadxpress_black.svg"
+  })));
 };
 
 var StyledNav = _styledComponents.default.div(_templateObject());
@@ -34322,11 +34322,11 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_TopNav.default, null), /*#__PURE__*/_react.default.createElement(StyledOuterDiv, null, /*#__PURE__*/_react.default.createElement(StyledImageContainer, null, /*#__PURE__*/_react.default.createElement(StyledHeaderText, null, /*#__PURE__*/_react.default.createElement("h1", null, "Got freight? We haul!"), /*#__PURE__*/_react.default.createElement("p", null, "No matter how close or far, we'll get the job done. Licensed to pick up and drop off shipments nationwide. Our transportation services include dry goods, refrigerated loads, half-loads and full-loads. If you need freight hauled with no stress? Say less and choose Cadxpress."))), /*#__PURE__*/_react.default.createElement(StyledContentContainer, null, /*#__PURE__*/_react.default.createElement("h2", null, "Operating Principles"), /*#__PURE__*/_react.default.createElement("p", null, "We're road warriors and even pickup and drop off on holidays. We've found that the best way to do business is to pretend the shipment we've picked up needs to be dropped off yesterday. Putting your needs first is the bridge to building lasting relationships."), /*#__PURE__*/_react.default.createElement("h2", null, "Communication/Integrity"), /*#__PURE__*/_react.default.createElement("p", null, "The essense of business is being able to communicate with your clients at the moment something doesn't go according to plan and not waiting until the last moment. Trust is key and our goal is to establish trust not just with our words, but with our actions."), /*#__PURE__*/_react.default.createElement("h2", null, "True Partnership"), /*#__PURE__*/_react.default.createElement("p", null, "We're in this together and the understanding that if your load doesn't get delivered on time affects us just as much as it affects you, so if you need a freight hauled with no stress? Say less and choose ", /*#__PURE__*/_react.default.createElement("strong", null, "Cadxpress!")), /*#__PURE__*/_react.default.createElement("h2", null, "Services"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Nationwide hauling"), /*#__PURE__*/_react.default.createElement("li", null, "2 drivers = 20 hours of driving per day per truck (under normal circumstances)"), /*#__PURE__*/_react.default.createElement("li", null, "Dry loads"), /*#__PURE__*/_react.default.createElement("li", null, " Refrigerated loads"), /*#__PURE__*/_react.default.createElement("li", null, "Single item"), /*#__PURE__*/_react.default.createElement("li", null, "Half load"), /*#__PURE__*/_react.default.createElement("li", null, "Full load (up to 45,000lbs)")), /*#__PURE__*/_react.default.createElement("h2", null, "Contact us"), /*#__PURE__*/_react.default.createElement("p", null, "Communication is a must so don\u2019t hesitate to get in touch..."), /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("a", {
-    href: "tel:XXX-XXX-XXXX"
-  }, "XXX-XXX-XXXX"), " | ", /*#__PURE__*/_react.default.createElement("a", {
-    href: "mailto: email@gmail.com"
-  }, "email@gmail.com")))));
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_TopNav.default, null), /*#__PURE__*/_react.default.createElement(StyledOuterDiv, null, /*#__PURE__*/_react.default.createElement(StyledImageContainer, null, /*#__PURE__*/_react.default.createElement(StyledHeaderText, null, /*#__PURE__*/_react.default.createElement("h1", null, "Got freight? We haul!"), /*#__PURE__*/_react.default.createElement("p", null, "No matter how close or far, we'll get the job done. Licensed to pick up and drop off shipments nationwide. Our transportation services include dry goods, refrigerated loads, half-loads and full-loads. If you need freight hauled with no stress? Say less and choose Cadxpress."))), /*#__PURE__*/_react.default.createElement(StyledContentContainer, null, /*#__PURE__*/_react.default.createElement("h2", null, "Operating Principles"), /*#__PURE__*/_react.default.createElement("p", null, "We're road warriors and even pickup and drop off on holidays. We've found that the best way to do business is to pretend the shipment we've picked up needs to be dropped off yesterday. Putting your needs first is the bridge to building lasting relationships."), /*#__PURE__*/_react.default.createElement("h2", null, "Communication/Integrity"), /*#__PURE__*/_react.default.createElement("p", null, "The essense of business is being able to communicate with your clients at the moment something doesn't go according to plan and not waiting until the last moment. Trust is key and our goal is to establish trust not just with our words, but with our actions."), /*#__PURE__*/_react.default.createElement("h2", null, "True Partnership"), /*#__PURE__*/_react.default.createElement("p", null, "We're in this together and the understanding that if your load doesn't get delivered on time affects us just as much as it affects you, so if you need a freight hauled with no stress? Say less and choose ", /*#__PURE__*/_react.default.createElement("strong", null, "Cadxpress!")), /*#__PURE__*/_react.default.createElement("h2", null, "Services"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Nationwide hauling"), /*#__PURE__*/_react.default.createElement("li", null, "2 drivers = 20 hours of driving per day per truck (under normal circumstances)"), /*#__PURE__*/_react.default.createElement("li", null, "Dry loads"), /*#__PURE__*/_react.default.createElement("li", null, " Refrigerated loads"), /*#__PURE__*/_react.default.createElement("li", null, "Single item"), /*#__PURE__*/_react.default.createElement("li", null, "Half load"), /*#__PURE__*/_react.default.createElement("li", null, "Full load (up to 45,000lbs)")), /*#__PURE__*/_react.default.createElement("h2", null, "Contact us"), /*#__PURE__*/_react.default.createElement("p", null, "Communication is a ", /*#__PURE__*/_react.default.createElement("strong", null, "must"), " so don\u2019t hesitate to get in touch:"), /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("strong", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "tel:2015388042"
+  }, "(201) 538-8042")), " | ", /*#__PURE__*/_react.default.createElement("a", {
+    href: "mailto:cadxpresstrucking@gmail.com"
+  }, "cadxpresstrucking@gmail.com")))));
 }
 
 var StyledOuterDiv = _styledComponents.default.div(_templateObject());
@@ -34462,7 +34462,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49812" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50482" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -6,18 +6,22 @@ const TopNav = () => {
     return (
         <>
          <StyledNav>
-             <Link to='/'>Logo goes here</Link>
+             <img src='https://imagesforportfolio.s3.amazonaws.com/cadxpress_black.svg'></img>
          </StyledNav>
         </>
     )
 }
 
 export const StyledNav = styled.div`
-@media screen and (max-width: 470px) {
-    width: 470px !important;
-    a {
-        font-size: 12px;
-    }
+display: flex;
+background: url("https://imagesforportfolio.s3.amazonaws.com/cadxpress_black.svg") no-repeat cover;
+width: 200px;
+max-height: 200px !important;
+img {
+    height: auto;
+    max-width: 200px;
+    margin-bottom: -83px;
+    margin-top: -20px;
 }
 `
 

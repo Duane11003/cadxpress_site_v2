@@ -32,7 +32,7 @@ function App() {
                 </ul>
                 <h2>Contact us</h2>
                 <p>Communication is a <strong>must</strong> so don’t hesitate to get in touch:</p>
-                <p><strong><a href='tel:XXX-XXX-XXXX'>XXX-XXX-XXXX</a></strong> | <a href='mailto: email@gmail.com'>email@gmail.com</a></p>
+                <p><strong><a href='tel:2015388042'>(201) 538-8042</a></strong> | <a href='mailto:cadxpresstrucking@gmail.com'>cadxpresstrucking@gmail.com</a></p>
             </StyledContentContainer>
         </StyledOuterDiv>
         </>
